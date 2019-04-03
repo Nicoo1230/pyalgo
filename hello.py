@@ -13,6 +13,12 @@ operande1 = -3
 operande2 = 2
 resultat = operande1 + operande2
 print(resultat)
+if resultat > 0:
+     print('le résultat est positif')
+if resultat = 0:
+    print("le résultat est nul")
+else :
+    print('le résultat est négatif')
 
 """
 Fin de l'algorithme
