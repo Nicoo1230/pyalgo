@@ -15,7 +15,7 @@ resultat = operande1 + operande2
 print(resultat)
 if resultat > 0:
      print('le résultat est positif')
-if resultat = 0:
+if resultat == 0:
     print("le résultat est nul")
 else :
     print('le résultat est négatif')
