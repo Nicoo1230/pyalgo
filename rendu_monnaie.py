@@ -7,10 +7,11 @@ Use // to get an integer division
 Use % to get rest of int div
 Use input() function to get a user entry
 """
-
-somme = 350
-nbreBillet100 = somme//100
-reste100 = somme % 100
+prixObjet = 75
+sommeInitiale = 751
+sommeApresAchat = sommeInitiale - prixObjet
+nbreBillet100 = sommeApresAchat//100
+reste100 = sommeApresAchat % 100
 nbreBillet50 = reste100 // 50
 reste50 = reste100 % 50
 nbreBillet20 = reste50//20
@@ -20,7 +21,7 @@ reste10 = reste20%10
 nbrePiece2 = reste10//2
 reste2 = reste10%2
 
-print("La machine vous rend: ")
+print("Vous avez payé avec", sommeInitiale, "€ pour un achat de ", prixObjet,"€ et nous vous rendons ", sommeApresAchat, "€ sous la forme de : ")
 if nbreBillet100 >0:
     print(nbreBillet100, "billets de 100€, ")
 if nbreBillet50 >0:
